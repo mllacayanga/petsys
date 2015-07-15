@@ -14,12 +14,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
          <a href="https://instagram.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/insta.png"></a>
         </div>
         <div class="tagline2">
-           <h1>#SaveMrt3</h1>
+          
+           <h1>#SaveMrt</h1>
         </div>
       </div>
       <div class="one-half column">
         <div class="tagline">
-           <h1>#SaveMrt3</h1>
+           
+           <h1>#SaveMrt</h1>
         </div>
          <div class="social-media-hide">
           <a href="https://www.facebook.com/savemrtph"><img src="<?php echo base_url(); ?>assets/images/fb.png"></a>
