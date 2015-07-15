@@ -47,8 +47,29 @@ body{
     padding: 35px 0 35px 0;
 }
 
-.social-media img{
+.social-media-show{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 35px 0 35px 0;
+}
+
+.social-media-show img{
     padding: 0 10px;
+    width: 150px;
+}
+
+.social-media-hide{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 35px 0 35px 0;
+    display: none;
+}
+
+.social-media-hide img{
+    padding: 0 10px;
+    width: 150px;
 }
 
 .tagline{
@@ -69,6 +90,25 @@ body{
     font-family: 'Roboto-Bold';
 }
 
+.tagline2{
+    width: 100%;
+    display: none;
+    text-align: center;
+    padding: 35px 0 35px 0;
+    background-color: #000;
+    color: #fff;
+    height: 227px;
+
+}
+
+.tagline2 h1{
+    text-transform: uppercase;
+    font-size: 105px;
+    font-weight: 700;
+    padding: 15px 0 10px 0;
+    font-family: 'Roboto-Bold';
+}
+
 .background{
     background: url(../images/bg.jpg) no-repeat 1px -150px;
     height: 616px;
@@ -77,7 +117,7 @@ body{
 .info-holder{
     background-color: rgba(0, 52, 113, 0.8);
     color: #fff;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     height: 616px;
 }
 
@@ -105,16 +145,19 @@ body{
 
 .form-holder input{
     color: #000;
+    width: 95%;
 }
 
 .form-holder textarea{
     color: #000;
+    width: 95%;
 }
 
 .form-holder input.button-primary{
     color: #FFF;
     background-color: #003471;
     border-color: #013169;
+    width: 108px;
 }
 
 .form-holder input.button-primary:hover{
@@ -168,7 +211,7 @@ body{
 }
 
 .petitioner-holder table{
-
+    width:  100%;
 }
 
 .petitioner-holder thead{
@@ -193,14 +236,309 @@ body{
     word-break: break-word;
 }
 
+.petitioner-container{
+    width: 100%;
+}
 
-@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+.form-content{
+    width:  100%;
+}
 
-    
+/* Portrait and Landscape ----- TABLET*/
+
+@media (max-device-width: 1280px) {
+
+    .background{
+        height: auto;
+    }
+
+    .info-holder{
+        height: 680px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .social-media{
+        padding: 0;
+    }
+
+    .social-media-show{
+        display: block;
+        padding: 23px 0 23px 0;
+    }
+
+    .social-media-show img{
+        width: 25%;
+    }
+
+    .tagline{
+        display: block;
+        height: 110px;
+    }
+
+    .tagline h1{
+        font-size: 65px;
+    }
+
+    .form-holder{
+        height: 640px;
+    }
+
+    .form-holder input{
+        color: #000;
+        width: 95%;
+    }
+
+    .form-holder textarea{
+        color: #000;
+        width: 95%;
+    }
+
+    .petitioners{
+        height: 163px;
+    }
+
+    .petitioners h2{
+        font-size: 48px;
+         padding: 5px 0 10px 0;
+    }
+
+    .petitioner-count{
+        height: 163px;
+    }
+
+    .petitioner-count h2{
+        font-size: 42px;
 
     }
 
+}
 
+
+/* Portrait and Landscape ----- TABLET*/
+
+@media (max-device-width: 1024px) {
+
+    .background{
+        height: auto;
+    }
+
+    .info-holder{
+        height: auto;
+        padding: 20px 20px 4px 20px;
+    }
+
+    .social-media{
+        padding: 0;
+    }
+
+    .social-media-show{
+        display: block;
+         padding: 35px 0 35px 0;
+    }
+
+    .social-media-show img{
+        width: 25%;
+    }
+
+    .tagline{
+        display: block;
+        height: 110px;
+    }
+
+    .tagline h1{
+        font-size: 65px;
+    }
+
+    .form-holder{
+        height: 780px;
+    }
+
+    .form-holder input{
+        color: #000;
+        width: 95%;
+    }
+
+    .form-holder textarea{
+        color: #000;
+        width: 95%;
+    }
+
+    .petitioners{
+        height: 163px;
+    }
+
+    .petitioners h2{
+        font-size: 48px;
+         padding: 5px 0 10px 0;
+    }
+
+    .petitioner-count{
+        height: 163px;
+    }
+
+    .petitioner-count h2{
+        font-size: 42px;
+
+    }
+
+}
+
+@media (max-device-width: 800px) {
+
+    .background{
+        height: auto;
+    }
+
+    .info-holder{
+        height: 820px;
+        padding: 20px 20px 4px 20px;
+    }
+
+    .info-holder p {
+      font-size: 13px;
+    }
+
+    .social-media{
+        padding: 0;
+    }
+
+    .social-media-show{
+        display: block;
+        padding: 35px 0 35px 0;
+    }
+
+    .social-media-show img{
+        width: 25%;
+    }
+
+    .tagline{
+        display: block;
+        height: 90px;
+    }
+
+    .tagline h1{
+        font-size: 55px;
+    }
+
+    .form-holder{
+        height: 780px;
+    }
+
+    .form-holder input{
+        color: #000;
+        width: 95%;
+    }
+
+    .form-holder textarea{
+        color: #000;
+        width: 95%;
+    }
+
+    .petitioners{
+        height: 163px;
+    }
+
+    .petitioners h2{
+        font-size: 48px;
+         padding: 5px 0 10px 0;
+    }
+
+    .petitioner-count{
+        height: 163px;
+    }
+
+    .petitioner-count h2{
+        font-size: 42px;
+
+    }
+
+}
+
+
+/* Portrait and Landscape ----- PHONE*/
+
+@media (max-device-width: 640px) {
+
+    .background{
+        height: auto;
+        background: none;
+    }
+
+    .info-holder{
+        height: auto;
+        padding: 20px 20px 39px 20px;
+    }
+
+    .info-holder p {
+      font-size: 14px;
+    }
+
+    .social-media{
+        padding: 0;
+    }
+
+    .social-media-show{
+        display: none;
+    }
+
+    .social-media-hide{
+        display: block;
+    }
+
+    .social-media-hide img{
+        width: 25%;
+    }
+
+    .tagline{
+        display: none;
+    }
+
+    .tagline2{
+        display: block;
+        height: 110px;
+    }
+
+    .tagline2 h1{
+        font-size: 58px;
+    }
+
+    .form-holder {
+      height: 700px;
+    }
+
+    .form-holder input{
+        color: #000;
+        width: 95%;
+    }
+
+    .form-holder textarea{
+        color: #000;
+        width: 95%;
+    }
+
+    .petitioners{
+        height: 180px;
+    }
+
+    .petitioners h2{
+        font-size: 48px;
+    }
+
+    .petitioner-count{
+        height: 163px;
+    }
+
+    .petitioner-count h2{
+        font-size: 42px;
+
+    }
+
+    .form-content{
+        word-break: break-word;
+        font-size: 14px;
+    }
+
+}
 
 /*scrollbar*/
 ::-webkit-scrollbar {
