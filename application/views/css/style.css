@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Thin-Italic';
+    src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light-Italic';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Roboto-Regular';
+}
+
+.landing-page{
+    height: 100vh;
+}
+
+.landing-page h1{
+    font-family: 'Roboto-Bold';
+    margin: 10% 0 0 0;
+    font-size: 135px;
+    text-align: center;
+}
+
+.landing-page img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.join-container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.join-us{
+    display: inline-block;
+    height: 70px;
+    padding: 0 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    background: #ed1c24;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 90px auto;
+}
+
+.join-us:hover{
+    color: #ed1c24;
+    background-color: #fff;
+    border-color: #ed1c24;
+    outline: 0; }
+}
+
+/*Animations*/
+
+
+.petition-page{
+
+}
+
+.petition-page h2{
+    font-family: 'Roboto-Bold';
+    margin: 6% 0 0 0;
+    font-size: 60px;
+    text-align: left;
+}
+
+.logo-container{
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    width: 120px;
+    height: auto;
+    margin: 20px 0 0 0;
+    text-align: right;
+}
+
+.social-media{
+    width: 100%;
+    text-align: center;
+}
+
+.social-media img{
+    padding: 0 3px;
+}
+
+.petition h3{
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.petition-holder{
+    border-radius: 4px;
+    margin: -5% 0 0 0;
+    border: 1px solid #000;
+    color: #000;
+    padding: 20px 10px 20px 10px;
+    height: 537px;
+}
+
+.petition-holder p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.petition-button{
+    display: inline-block;
+    height: 40px;
+    padding: 0 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    background: #ed1c24;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.petition-button:hover{
+    color: #ed1c24;
+    background-color: #fff;
+    border-color: #ed1c24;
+    outline: 0; }
+}
+
+.form-holder h3{
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.petitioners h3{
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.petitioner-holder{
+    border-radius: 4px;
+    margin: -3.4% 0 0 0;
+    border: 1px solid #000;
+    color: #000;
+    padding: 20px 10px 20px 10px;
+    height: 537px;
+}
+
+.petitioner-holder p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.message-container{
+    overflow-y: scroll;
+    height: 450px;
+    overflow-x:none;
+}
+
+.message-container table{
+    word-break: break-word;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+      width: 10px;
+} 
+
+::-webkit-scrollbar-track {
+      background-color: #d8d8d8;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #bbbbbb;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+
+    body{
+        overflow: scroll;
+    }
+
+    .petition-holder {
+        height: 630px;
+    }
+
+    th, td {
+      padding: 12px 12px;
+    }
+
+    }
