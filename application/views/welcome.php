@@ -58,7 +58,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
                     <label for="exampleEmailInput">Location:</label>
-                    <input type="text" name="location" placeholder="Manila" value=""/>
+                    <input type="text" name="location" placeholder="City, Country" value=""/>
                     <?php echo form_error('location', '<div  style="margin: -17px 20% 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
 
