@@ -8,12 +8,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="container">
     <div class="row">
       <div class="one-half column social-media">
-         <a href="https://www.facebook.com/savemrtph"><img src="<?php echo base_url(); ?>assets/images/fb.png" width="150px"></a>
-         <a href="https://twitter.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/twi.png" width="150px"></a>
-         <a href="https://instagram.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/insta.png" width="150px"></a>
+        <div class="social-media-show">
+          <a href="https://www.facebook.com/savemrtph"><img src="<?php echo base_url(); ?>assets/images/fb.png"></a>
+         <a href="https://twitter.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/twi.png"></a>
+         <a href="https://instagram.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/insta.png"></a>
+        </div>
+        <div class="tagline2">
+           <h1>#SaveMrt</h1>
+        </div>
       </div>
-      <div class="one-half column tagline">
-         <h1>#SaveMrt</h1>
+      <div class="one-half column">
+        <div class="tagline">
+           <h1>#SaveMrt</h1>
+        </div>
+         <div class="social-media-hide">
+          <a href="https://www.facebook.com/savemrtph"><img src="<?php echo base_url(); ?>assets/images/fb.png"></a>
+          <a href="https://twitter.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/twi.png"></a>
+          <a href="https://instagram.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/insta.png"></a>
+        </div>
       </div>
     </div>
 
@@ -41,18 +53,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class="twelve columns">
                     <h2>Join Our Petition.</h2>
                     <label for="exampleEmailInput">Name:</label>
-                    <input type="text" name="name" placeholder="First Name, Last Name" value="<?php echo set_value('name'); ?>" size="60" />
-                    <?php echo form_error('name', '<div  style="margin: -17px 300px 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
+                    <input type="text" name="name" placeholder="First Name, Last Name" value="<?php echo set_value('name'); ?>"/>
+                    <?php echo form_error('name', '<div  style="margin: -17px 20% 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
 
                     <label for="exampleEmailInput">Location:</label>
-                    <input type="text" name="location" placeholder="City, Country" value="<?php echo set_value('location'); ?>" size="60" />
-                    <?php echo form_error('location', '<div  style="margin: -17px 300px 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
+                    <input type="text" name="location" placeholder="City, Country" value="<?php echo set_value('location'); ?>" />
+                    <?php echo form_error('location', '<div  style="margin: -17px 20% 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
 
                     <label for="exampleEmailInput">Contact Info:</label>
-                    <input type="text" name="contact" placeholder="Email Address, Phone Number" value="<?php echo set_value('contact'); ?>" size="60" />
-                    <?php echo form_error('contact', '<div  style="margin: -17px 300px 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
+                    <input type="text" name="contact" placeholder="Email Address, Phone Number" value="<?php echo set_value('contact'); ?>" />
+                    <?php echo form_error('contact', '<div  style="margin: -17px 20% 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
 
                   
@@ -61,7 +73,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     $data = array(
                       'name'        => 'message',
                       'id'          => 'message',
-                      'cols'        => '60',
                       'value'       => set_value('message'),
                       'placeholder'       => 'Add a comment...',
                     );
@@ -93,12 +104,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="twelve columns">
         <div class="petitioner-holder">
           <div class="petitioner-container">
-            <table class="u-full-width">
+            <table class="u-full-width form-content">
               <thead>
                 <tr>
-                  <th>Name</th>
-                  <th>Location</th>
-                  <th>Contact Information</th>
+                  <th style="width:3%;">Name</th>
+                  <th style="width:3%;">Location</th>
+                  <th style="width:3%;">Contact Information</th>
                   <th>Message</th>
                 </tr>
               </thead>
