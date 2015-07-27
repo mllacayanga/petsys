@@ -41,17 +41,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h2>Join Our Petition</h2>
                     <label for="exampleEmailInput">Name:</label>
                     <input type="text" name="name" placeholder="First Name, Last Name" value=""/>
-                    <?php echo form_error('name', '<div  style="margin: -45px 21% 12px 37%;color: white;background-color:#f93e3f;border-radius: 4px; position:absolute; z-index:9999; text-align:right">', '</div>'); ?>
+                    <?php echo form_error('name', '<div  style="margin: -13px 21% 12px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
 
                     <label for="exampleEmailInput">Location:</label>
                     <input type="text" name="location" placeholder="City, Country" value=""/>
-                    <?php echo form_error('location', '<div  style="margin: -45px 21% 12px 35.4%;color: white;background-color:#f93e3f;border-radius: 4px; position:absolute; z-index:9999; text-align:right">', '</div>'); ?>
+                    <?php echo form_error('location', '<div  style="margin: -13px 21% 12px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
 
                     <label for="exampleEmailInput">Contact Info:</label>
                     <input type="text" name="contact" placeholder="Email Address, Phone Number" value=""/>
-                    <?php echo form_error('contact', '<div  style="margin: -45px 21% 12px 33.4%;color: white;background-color:#f93e3f;border-radius: 4px; position:absolute; z-index:9999; text-align:right">', '</div>'); ?>
+                    <?php echo form_error('contact', '<div  style="margin: -13px 21% 12px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
 
                   
                 <label for="exampleMessage">Message</label>
