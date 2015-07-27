@@ -290,6 +290,7 @@ body{
     }
 
     .form-holder{
+         padding: 20px 0;
         height: 640px;
     }
 
@@ -362,6 +363,7 @@ body{
 
     .form-holder{
         height: 780px;
+          padding: 20px 0;
     }
 
     .form-holder input{
