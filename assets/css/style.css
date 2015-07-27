@@ -111,14 +111,14 @@ body{
 
 .background{
     background: url(../images/bg.jpg) no-repeat 1px -150px;
-    height: 557px;
+    height: 600px;
 }
 
 .info-holder{
     background-color: rgba(0, 52, 113, 0.8);
     color: #fff;
     padding: 20px 20px 20px 20px;
-    height: 557px;
+    height: 600px;
 }
 
 .info-holder h2{
@@ -130,7 +130,7 @@ body{
 }
 
 .form-holder{
-   padding: 20px 230px;
+   padding: 20px 230px 0 244px;
   color: #fff;
   height: 474px;
 }
@@ -166,7 +166,7 @@ body{
 }
 
 .petition{
-    padding: 0;
+    padding:0 10px;
 }
 
 .petition h2{
