@@ -48,15 +48,15 @@ body{
 }
 
 .social-media-show{
-    width: 100%;
+     width: 100%;
     display: block;
     text-align: center;
-    padding: 35px 0 35px 0;
+    margin: 10px 0 0 0;
 }
 
 .social-media-show img{
     padding: 0 10px;
-    width: 150px;
+    width: 115px;
 }
 
 .social-media-hide{
@@ -73,20 +73,20 @@ body{
 }
 
 .tagline{
-    width: 100%;
+      width: 100%;
     display: block;
     text-align: center;
     padding: 20px 0 20px 0;
     background-color: #000;
     color: #fff;
-    height: 227px;
+    height: 137px;
 }
 
 .tagline h1{
-    text-transform: uppercase;
-    font-size: 105px;
+        text-transform: uppercase;
+    font-size: 96px;
     font-weight: 700;
-    padding: 45px 0 45px 0;
+    padding: 7px 0 22px 0;
     font-family: 'Roboto-Bold';
 }
 
@@ -111,14 +111,14 @@ body{
 
 .background{
     background: url(../images/bg.jpg) no-repeat 1px -150px;
-    height: 616px;
+    height: 557px;
 }
 
 .info-holder{
     background-color: rgba(0, 52, 113, 0.8);
     color: #fff;
     padding: 20px 20px 20px 20px;
-    height: 616px;
+    height: 557px;
 }
 
 .info-holder h2{
@@ -130,15 +130,14 @@ body{
 }
 
 .form-holder{
-    padding: 20px;
-    background-color: rgba(62, 62, 62, 0.6);
-    color: #fff;
-    height: 575px;
+   padding: 20px 230px;
+  color: #fff;
+  height: 474px;
 }
 
 .form-holder h2{
     font-family: 'Roboto-Bold';
-    text-align: left;
+    text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -155,15 +154,27 @@ body{
 
 .form-holder input.button-primary{
     color: #FFF;
-    background-color: #003471;
-    border-color: #013169;
+    background-color: #2DBB28;
+    border-color: #235021;
     width: 108px;
 }
 
 .form-holder input.button-primary:hover{
-    color: #003471;
-    background-color: #fff;
-    border-color: #013169;
+    color: #FFF;
+    background-color: #2DBB28;
+    border-color: #235021;
+}
+
+.petition{
+    padding: 0;
+}
+
+.petition h2{
+      font-family: 'Roboto-Bold';
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
 }
 
 .petitioners{
@@ -187,16 +198,15 @@ body{
     width: 100%;
     display: block;
     text-align: center;
-    padding: 15px 0 15px 0;
     background-color: #000;
     color: #fff;
-    height: 227px;
+    height: 165px;
 }
 
 .petitioner-count h2{
     text-transform: uppercase;
     font-size: 65px;
-    padding: 15px 0 10px 0;
+    padding: 5px 0 10px 0;
 
 }
 

@@ -32,28 +32,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
     <div class="row background">
-      <div class="one-half column info-holder">
-        <h2>Bring Back Sumitomo!</h2>
-        <p>Petitioning the Department of Transportation and Communication of the Philippines and H.E. President of the Republic of the Philippines Benigno Aquino III. <br>
-          Bring back Sumitomo as the maintenance provider of the MRT-3!<br>
-          We, the undersigned, concerned citizens from the Philippines as well as supporters from around the world, appeal for the total rehabilitation of the MRT-3 Philippines to, first but not the only appeal, ensure the safety of its passengers.<br>
-          We are asking the different offices in-charge of the upcoming bidding for a three year maintenance contract of the MRT-3 to BRING BACK SUMITOMO!<br>
-          Sumitomo Corp. provided maintenance service to MRT-3 from 1997 to 2012 and those were the best days we’ve seen of the trains. Regular news has well documented the deterioration of our metro trains since Sumitomo was kicked out.
-          BRING BACK SUMITOMO because they are perfectly knowledgeable on how to manage the MRT-3; they are a part of the team which constructed our trains and therefore, they know the MRT-3 from inside and out.<br>
-          We do not need to grant the award to the lowest bidder. We do not need any more cheaper but poor quality service. We need an effective maintenance provider. The government has more than enough budget to spend on our trains; this we know.<br>
-          BRING BACK SUMITOMO!
-        </p>
-      </div>
-      <div class="one-half column">
+      <div class="twelve column info-holder">
         <div class="form-holder">
              <?php echo form_open('petition/validation');?>
 
-
-
-
                 <div class="row">
                   <div class="twelve columns">
-                    <h2>Join Our Petition.</h2>
+                    <h2>Join Our Petition</h2>
                     <label for="exampleEmailInput">Name:</label>
                     <input type="text" name="name" placeholder="First Name, Last Name" value=""/>
                     <?php echo form_error('name', '<div  style="margin: -17px 20% 11px 0;color: white;background-color:#f93e3f;border-radius: 4px;">', '</div>'); ?>
@@ -89,14 +74,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 ?>
               
           </div>
+
+        </p>
       </div>
     </div>
 
     <div class="row">
-      <div class="one-half column petitioners">
-        <h2>Save Mrt Petitioners</h2>
+      <div class="twelve columns petition">
+        <h2>Rehabilitate MRT now!</h2>
+        <p>Petitioning the Department of Transportation and Communication of the Philippines (DOTC) and H.E. President of the Republic of the Philippines Benigno Aquino III<br>
+
+        We, the undersigned, concerned citizens from the Philippines as well as supporters from around the world, appeal for the total rehabilitation of the MRT-3 Philippines to, first but not the only appeal, ensure the safety of its passengers.<br>
+
+        This is a petition calling for more coaches to result to shorter train intervals, calling for new rail tracks for a more steady ride, calling for functioning elevators and escalators for the PWDS, pregnant women, elders, and the like, calling for all the MRT functions to be changed, overhauled NOT only refurbished from its current state; all these to ensure effectivity and efficiency for the riding public.<br>
+
+        After the overhauling, we are petitioning that the different offices-in-charge of the upcoming bidding for a three (3) year maintenance contract of the MRT-3 to bring back Sumitomo Corp., the first and most effective maintenance provider that handled MRT-3.<br>
+        Read Sumitomo’s legacy on the maintenance of MRT-3:<br>
+        If for legal reasons, the Sumitomo cannot be awarded as the maintenance provider, we call for a maintenance provider as trustworthy, knowledgeable, and competent as Sumitomo.<br>
+
+        Lastly, we are petitioning that all the contracts regarding the MRT-3 shall not be awarded to any company affiliated to or with members affiliated to Philippine Trans Rail Management and Services Corporation-Comm Builders and Technology Philippines Corporation (PH Trams-CB&T) and Global-APT—example but not limited to Global Epcom, Future Logic, former DOTC Secretary Mar Roxas (currently DILG Secretary), DOTC Secretary Joseph Emilio Aguinaldo Abaya, former MRT General Manager Al Vitangcol III, DOTC Bids and Awards Committee (BAC) members, Members of the negotiating team Misael Narca, Engr. Joel Magbanua, Arnel Manresa, Natividad Sansolis, Engr. Gina Rodriguez, Eugene Cecilio, Engr. Raphael Lavides, Atty.  Geronimo Quintos, Representatives from the joint venture of the PH Trams-CB&T Wilson de Vera, Arturo Soriano, Marlo dela Cruz, Manolo Maralit, and Federico Remo.<br>
+
+        The MRT-3 commuters have already suffered a lot because of the incompetencies of these companies and their members and we want that to stop now.<br>
+
+        This is our petition. Our vision for MRT-3 may be limited as of the moment but we are open for communication to improve our calls, and pleas.<br>
       </div>
-      <div class="one-half column petitioner-count">
+    </div>
+
+    <div class="row">
+      <div class="twelve columns petitioner-count">
         <h2>Total count: <br><?php echo $this->db->count_all_results('petitioners'); ?></h2>
       </div>
     </div>
@@ -137,6 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
   </div>
+
 
 
 <!-- End Document
