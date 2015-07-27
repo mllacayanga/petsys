@@ -144,18 +144,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-     window.onload = function() {
-     $('html, body').animate({
-        scrollTop: $(".petitioner-count").offset().top
-      }, 2000);
-    };
-
-  });
-
-</script>
-
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
