@@ -9,9 +9,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row">
       <div class="one-half column social-media">
         <div class="social-media-show">
-          <a href="https://www.facebook.com/savemrtph"><img src="<?php echo base_url(); ?>assets/images/fb.png"></a>
-         <a href="https://twitter.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/twi.png"></a>
-         <a href="https://instagram.com/savemrt"><img src="<?php echo base_url(); ?>assets/images/insta.png"></a>
+          <a href="https://www.facebook.com/savemrtph" target="_blank"><img src="<?php echo base_url(); ?>assets/images/fb.png"></a>
+         <a href="https://twitter.com/savemrt" target="_blank"><img src="<?php echo base_url(); ?>assets/images/twi.png"></a>
+         <a href="https://instagram.com/savemrt" target="_blank"><img src="<?php echo base_url(); ?>assets/images/insta.png"></a>
         </div>
         <div class="tagline2">
           
@@ -69,7 +69,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   
                 </div>
 
-                <input class="button-primary" type="submit" value="Submit">
+                <div style="width:95%; text-align:right;">
+                  <input class="button-primary" type="submit" value="Submit">
+                </div>
+                
                <?php  echo form_close();
                 ?>
               
@@ -82,20 +85,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row">
       <div class="twelve columns petition">
         <h2>Rehabilitate MRT now!</h2>
-        <p>Petitioning the Department of Transportation and Communication of the Philippines (DOTC) and H.E. President of the Republic of the Philippines Benigno Aquino III<br>
-
-        We, the undersigned, concerned citizens from the Philippines as well as supporters from around the world, appeal for the total rehabilitation of the MRT-3 Philippines to, first but not the only appeal, ensure the safety of its passengers.<br>
-
-        This is a petition calling for more coaches to result to shorter train intervals, calling for new rail tracks for a more steady ride, calling for functioning elevators and escalators for the PWDS, pregnant women, elders, and the like, calling for all the MRT functions to be changed, overhauled NOT only refurbished from its current state; all these to ensure effectivity and efficiency for the riding public.<br>
-
+        <p>Petitioning the Department of Transportation and Communication of the Philippines (DOTC) and H.E. President of the Republic of the Philippines Benigno Aquino III</p><p>
+        We, the undersigned, concerned citizens from the Philippines as well as supporters from around the world, appeal for the total rehabilitation of the MRT-3 Philippines to, first but not the only appeal, ensure the safety of its passengers.</p><p>
+        This is a petition calling for more coaches to result to shorter train intervals, calling for new rail tracks for a more steady ride, calling for functioning elevators and escalators for the PWDS, pregnant women, elders, and the like, calling for all the MRT functions to be changed, overhauled NOT only refurbished from its current state; all these to ensure effectivity and efficiency for the riding public.</p><p>
         After the overhauling, we are petitioning that the different offices-in-charge of the upcoming bidding for a three (3) year maintenance contract of the MRT-3 to bring back Sumitomo Corp., the first and most effective maintenance provider that handled MRT-3.<br>
         Read Sumitomo’s legacy on the maintenance of MRT-3:<br>
-        If for legal reasons, the Sumitomo cannot be awarded as the maintenance provider, we call for a maintenance provider as trustworthy, knowledgeable, and competent as Sumitomo.<br>
-
-        Lastly, we are petitioning that all the contracts regarding the MRT-3 shall not be awarded to any company affiliated to or with members affiliated to Philippine Trans Rail Management and Services Corporation-Comm Builders and Technology Philippines Corporation (PH Trams-CB&T) and Global-APT—example but not limited to Global Epcom, Future Logic, former DOTC Secretary Mar Roxas (currently DILG Secretary), DOTC Secretary Joseph Emilio Aguinaldo Abaya, former MRT General Manager Al Vitangcol III, DOTC Bids and Awards Committee (BAC) members, Members of the negotiating team Misael Narca, Engr. Joel Magbanua, Arnel Manresa, Natividad Sansolis, Engr. Gina Rodriguez, Eugene Cecilio, Engr. Raphael Lavides, Atty.  Geronimo Quintos, Representatives from the joint venture of the PH Trams-CB&T Wilson de Vera, Arturo Soriano, Marlo dela Cruz, Manolo Maralit, and Federico Remo.<br>
-
-        The MRT-3 commuters have already suffered a lot because of the incompetencies of these companies and their members and we want that to stop now.<br>
-
+        If for legal reasons, the Sumitomo cannot be awarded as the maintenance provider, we call for a maintenance provider as trustworthy, knowledgeable, and competent as Sumitomo.</p><p>
+        Lastly, we are petitioning that all the contracts regarding the MRT-3 shall not be awarded to any company affiliated to or with members affiliated to Philippine Trans Rail Management and Services Corporation-Comm Builders and Technology Philippines Corporation (PH Trams-CB&T) and Global-APT—example but not limited to Global Epcom, Future Logic, former DOTC Secretary Mar Roxas (currently DILG Secretary), DOTC Secretary Joseph Emilio Aguinaldo Abaya, former MRT General Manager Al Vitangcol III, DOTC Bids and Awards Committee (BAC) members, Members of the negotiating team Misael Narca, Engr. Joel Magbanua, Arnel Manresa, Natividad Sansolis, Engr. Gina Rodriguez, Eugene Cecilio, Engr. Raphael Lavides, Atty.  Geronimo Quintos, Representatives from the joint venture of the PH Trams-CB&T Wilson de Vera, Arturo Soriano, Marlo dela Cruz, Manolo Maralit, and Federico Remo.</p><p>
+        The MRT-3 commuters have already suffered a lot because of the incompetencies of these companies and their members and we want that to stop now.</p><p>
         This is our petition. Our vision for MRT-3 may be limited as of the moment but we are open for communication to improve our calls, and pleas.<br>
       </div>
     </div>
